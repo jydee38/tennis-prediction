@@ -1,0 +1,2 @@
+pushd "D:\21_PERSO\0000000000_Tennnis_prediction\Tennis-Prediction-master"
+pyinstaller --onedir --windowed --noconfirm --name "TennisPredictor" --splash "splash.png" --icon="logo-simple.ico" --add-data "logo-simple.svg;." --add-data "data;data" --hidden-import scipy._cyutility --hidden-import scipy.special.cython_special --hidden-import sklearn.utils._cython_blas --hidden-import sklearn.externals.array_api_compat.numpy.fft --hidden-import sklearn.externals.array_api_compat.numpy.linalg --hidden-import sklearn._cyutility 0_gui_app.py

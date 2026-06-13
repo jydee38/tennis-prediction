@@ -1,0 +1,33 @@
+# Fichiers de configuration et secrets
+clef_tennis.txt
+email_config.json
+.env
+
+# Données locales, modèles et caches
+data/
+cache/
+cache_rapidapi/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers de log
+*.log
+log.txt
+NOTICE.MD
+Nouveau Document texte.txt
+pour_short.txt
+site_a_tester.txt
+
+# Artefacts de développement
+*.lnk
+scratch/
+
+# Vidéos et médias générés (optionnel, selon ce que tu veux versionner)
+*.mp4
+short_final.mp4
+
+# Fichiers spécifiques au système (Windows/Mac)
+.DS_Store
+Thumbs.db

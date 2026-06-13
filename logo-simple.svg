@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Fond principal sans coins arrondis pour éviter les coins blancs lors du rendu -->
+  <rect width="400" height="400" fill="#141e30"/>
+
+  <!-- Forme abstraite d'un court de tennis -->
+  <path d="M 80 260 L 320 260 L 280 140 L 120 140 Z" fill="none" stroke="#3a5f85" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="140" x2="200" y2="260" stroke="#3a5f85" stroke-width="2" opacity="0.5"/>
+
+  <!-- La balle de tennis en couleur solide (Jaune néon) -->
+  <circle cx="200" cy="180" r="55" fill="#ccff00"/>
+  
+  <!-- Lignes internes de la balle -->
+  <path d="M 160 145 Q 190 180 160 215 M 240 145 Q 210 180 240 215" fill="none" stroke="#141e30" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Orbite technologique -->
+  <ellipse cx="200" cy="180" rx="90" ry="30" fill="none" stroke="#ccff00" stroke-width="3" transform="rotate(-15 200 180)" opacity="0.8"/>
+  <circle cx="115" cy="198" r="4" fill="#ffffff"/>
+  <circle cx="288" cy="155" r="6" fill="#ccff00"/>
+
+  <!-- Typographie -->
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="34" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="5">TENNIS</text>
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ccff00" text-anchor="middle" letter-spacing="8">PREDICTIONS</text>
+</svg>
